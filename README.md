@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+##Configure routes
+
+Paso 1. npm install  react-router-dom  
+
+Paso 2. Definir las rutas de navegación útilizando el componente BrowserRouter de la libreria react-router-dom
+
+Paso 3. Definir las rutas utilizando el componente Route de la libreria react-router-dom. tener en cuenta que todos estos componentes deben estar encerrados dentro del componente Routes (https://github.com/remix-run/react-router/blob/main/docs/getting-started/tutorial.md)
+
+Paso 4. Crear un componente navbar para la navegación entre páginas utilizando <ul> y <li> y el componente Link de la libreria react-router-dom
+
+Paso 5. LLamar al componente personalizado navbar dentro del App route para que quede siempre disponible en la página
